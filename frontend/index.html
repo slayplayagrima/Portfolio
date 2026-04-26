@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Mercer | Aspiring Data Analyst</title>
+    <meta
+      name="description"
+      content="A clean, minimal data analyst portfolio featuring dashboard work, analysis projects, and contact details."
+    />
+    <meta name="theme-color" content="#171717" />
+    <meta property="og:title" content="Alex Mercer | Aspiring Data Analyst" />
+    <meta
+      property="og:description"
+      content="A clean, minimal portfolio showcasing data projects, analytics skills, and contact details."
+    />
+    <meta property="og:image" content="/opengraph.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (() => {
+        const storedTheme = localStorage.getItem("portfolio-theme");
+        const theme =
+          storedTheme === "light" || storedTheme === "dark"
+            ? storedTheme
+            : window.matchMedia("(prefers-color-scheme: light)").matches
+              ? "light"
+              : "dark";
+
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
