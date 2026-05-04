@@ -11,14 +11,14 @@
  */
 export const portfolioContent = {
   site: {
-    seoTitle: "Alex Mercer | Aspiring Data Analyst",
+    seoTitle: "Agrima Gusain | Aspiring Data Analyst and Full Stack Developer",
     seoDescription:
       "A dark, minimal portfolio for an aspiring data analyst showcasing projects, skills, achievements, and contact details.",
-    name: "Alex Mercer",
-    role: "Aspiring Data Analyst",
-    email: "alex.mercer@example.com",
-    linkedin: "https://linkedin.com/in/example",
-    github: "https://github.com/example",
+    name: "Agrima Gusain",
+    role: "Aspiring Data Analyst and Full Stack Developer",
+    email: "ag.agrimagusain@gmail.com",
+    linkedin: "https://www.linkedin.com/in/agrima-gusain-47a19032b/",
+    github: "https://github.com/slayplayagrima",
     profileImagePath: "/assets/profile/profile.png",
   },
   navigation: [
@@ -29,10 +29,10 @@ export const portfolioContent = {
     { label: "Contact", href: "#contact" },
   ],
   hero: {
-    greeting: "Hi, I'm Alex Mercer.",
+    greeting: "Hi, I'm Agrima Gusain.",
     headline: "Turning messy datasets into clear, actionable insights.",
     summary:
-      "I'm a final-year Computer Science & AI student focused on data analytics, dashboards, and reproducible workflows. I enjoy translating raw, messy information into decisions that teams can actually use.",
+      "I'm a 2nd-year Computer Science & AI student focused on data analytics, dashboards, and full-stack development. I enjoy translating raw, messy data into decisions, teams can actually use — and building the tools to deliver them.",
     primaryCta: { label: "View Projects", href: "#projects" },
     secondaryCta: { label: "Contact Me", href: "#contact" },
   },
@@ -40,8 +40,8 @@ export const portfolioContent = {
     eyebrow: "About",
     title: "A little about me.",
     paragraphs: [
-      "I bring a methodical, curiosity-driven approach to analysis. My strongest work happens where business questions are fuzzy, the source data is inconsistent, and the answer needs to be both technically sound and easy to present.",
-      "I focus on building clean datasets, intuitive dashboards, and practical reporting systems that help stakeholders move faster. Right now, I'm looking for analyst roles where I can contribute with SQL, Python, BI tooling, and strong data storytelling.",
+      "I work with messy, real-world datasets—cleaning, structuring, and turning them into dashboards that actually answer questions. My focus is on building visualizations that don’t just look good, but clearly explain why patterns exist.",
+      "I build full-stack projects where logic, data, and UI come together—handling everything from backend workflows to frontend interactions. I focus on making products that are not just functional, but feel intuitive and purposeful to use.",
     ],
   },
   featuredTools: [
@@ -50,11 +50,18 @@ export const portfolioContent = {
     "Tableau",
     "Python",
     "SQL",
+    "MongoDB",
     "Pandas",
     "NumPy",
     "Excel",
     "Statistics",
-    "Dashboard Design",
+    "Java",
+    "React",
+    "Next.js",
+    "Express.js",
+    "TypeScript",
+    "Git",
+    "Data Storytelling",
   ],
   skills: {
     eyebrow: "Toolkit",
@@ -81,58 +88,58 @@ export const portfolioContent = {
     ],
   },
   projects: [
-    {
-      id: "project-01",
-      title: "E-Commerce Customer Segmentation",
-      description:
-        "Clustered customer cohorts from behavioral and transaction data to uncover retention risks, loyalty patterns, and high-value segments for targeted campaigns.",
-      outcome:
-        "Built a Tableau-driven case study that turned model output into a clear segmentation story stakeholders could act on.",
-      techStack: ["Python", "Pandas", "Scikit-learn", "Tableau"],
-      imagePath: "/assets/projects/project-01.png",
-      imageAlt: "Customer segmentation project preview",
-      repoUrl: "https://github.com/example/customer-segmentation",
-      liveUrl: "https://tableau.com/example",
-    },
-    {
-      id: "project-02",
-      title: "Global Supply Chain Dashboard",
-      description:
-        "Designed a shipment monitoring dashboard to track delay hotspots, vendor bottlenecks, and inventory exposure across multiple logistics datasets.",
-      outcome:
-        "Created a reporting layer that made operational issues visible at a glance for planners and operations teams.",
-      techStack: ["SQL", "Power BI", "Data Modeling"],
-      imagePath: "/assets/projects/project-02.png",
-      imageAlt: "Supply chain dashboard preview",
-      repoUrl: "https://github.com/example/supply-chain-sql",
-      liveUrl: "",
-    },
-    {
-      id: "project-03",
-      title: "Predictive Maintenance Pipeline",
-      description:
-        "Built an end-to-end workflow that ingested telemetry data, engineered fault signals, and trained a model to flag equipment risk before failure.",
-      outcome:
-        "Improved visibility into maintenance planning with a pipeline designed for repeatable retraining and monitoring.",
-      techStack: ["Python", "NumPy", "Apache Airflow", "PostgreSQL"],
-      imagePath: "/assets/projects/project-03.png",
-      imageAlt: "Predictive maintenance workflow preview",
-      repoUrl: "https://github.com/example/predictive-maintenance",
-      liveUrl: "",
-    },
-    {
-      id: "project-04",
-      title: "Urban Housing Market Analysis",
-      description:
-        "Scraped and cleaned listing data to analyze neighborhood pricing, identify undervalued pockets, and explain pricing drivers with clear visuals.",
-      outcome:
-        "Combined statistical analysis with data storytelling to make local housing trends easier to compare and present.",
-      techStack: ["Python", "BeautifulSoup", "Seaborn", "Statsmodels"],
-      imagePath: "/assets/projects/project-04.png",
-      imageAlt: "Housing analysis project preview",
-      repoUrl: "https://github.com/example/housing-analysis",
-      liveUrl: "https://example.com/housing-report",
-    },
+      {
+    id: "project-01",
+    title: "Income Insights & Prediction Analysis",
+    description:
+      "Analyzed 48K+ census records to uncover key income drivers across education, occupation, and demographics using EDA, statistical analysis, and feature engineering.",
+    outcome:
+      "Built interactive Tableau dashboards with KPIs like High Income Rate and Gender Income Gap, enabling clear, data-driven insights and predictive segmentation.",
+    techStack: ["Python", "Pandas", "NumPy", "Tableau", "Excel"],
+    imagePath: "/assets/projects/project-01.png",
+    imageAlt: "Income analysis dashboard preview",
+    repoUrl: "https://github.com/slayplayagrima/IncomeDataAnalysis",
+    liveUrl: "https://public.tableau.com/views/IncomePredictionAnalysisDashboard_17773823940220/Dashboard?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", 
+  },
+      {
+    id: "project-02",
+    title: "Crime Forecasting & Trend Analysis",
+    description:
+      "Analyzed ~400K FBI crime records to identify temporal, spatial, and behavioral crime patterns using EDA and data preprocessing.",
+    outcome:
+      "Built an interactive Looker Studio dashboard with geo heatmaps, KPI cards, and trend forecasting, uncovering peak crime hours and high-risk zones for actionable insights.",
+    techStack: ["Python", "Google Colab", "Looker Studio", "Excel"],
+    imagePath: "/assets/projects/project-02.png",
+    imageAlt: "Crime analysis dashboard preview",
+    repoUrl: "https://github.com/slayplayagrima/CrimeDataAnalysis",
+    liveUrl: "https://datastudio.google.com/reporting/35da7499-8776-4f2c-869f-2832f56269ed", // add dashboard link if available
+  },
+  {
+    id: "project-03",
+    title: "Ascend — Trading Simulation Platform",
+    description:
+      "Built a full-stack trading simulation platform that integrates live market data with a simulated portfolio system, enabling users to practice investing in a risk-free environment.",
+    outcome:
+      "Delivered a real-time, beginner-focused trading experience with dynamic PnL tracking, portfolio updates, and a scalable backend architecture for market data integration.",
+    techStack: ["React", "Zustand", "Node.js", "Express", "PostgreSQL", "Prisma", "Socket.IO"],
+    imagePath: "/assets/projects/project-03.png",
+    imageAlt: "Ascend trading dashboard preview",
+    repoUrl: "https://github.com/slayplayagrima/ascend", // replace this
+    liveUrl: "https://ascendproject.vercel.app/", 
+  },
+    // {
+    //   id: "project-04",
+    //   title: "Urban Housing Market Analysis",
+    //   description:
+    //     "Scraped and cleaned listing data to analyze neighborhood pricing, identify undervalued pockets, and explain pricing drivers with clear visuals.",
+    //   outcome:
+    //     "Combined statistical analysis with data storytelling to make local housing trends easier to compare and present.",
+    //   techStack: ["Python", "BeautifulSoup", "Seaborn", "Statsmodels"],
+    //   imagePath: "/assets/projects/project-04.png",
+    //   imageAlt: "Housing analysis project preview",
+    //   repoUrl: "https://github.com/example/housing-analysis",
+    //   liveUrl: "https://example.com/housing-report",
+    // },
   ],
   snapshots: {
     eyebrow: "Visuals",
