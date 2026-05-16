@@ -127,19 +127,26 @@ export const portfolioContent = {
     repoUrl: "https://github.com/slayplayagrima/ascend", // replace this
     liveUrl: "https://ascendproject.vercel.app/", 
   },
-    // {
-    //   id: "project-04",
-    //   title: "Urban Housing Market Analysis",
-    //   description:
-    //     "Scraped and cleaned listing data to analyze neighborhood pricing, identify undervalued pockets, and explain pricing drivers with clear visuals.",
-    //   outcome:
-    //     "Combined statistical analysis with data storytelling to make local housing trends easier to compare and present.",
-    //   techStack: ["Python", "BeautifulSoup", "Seaborn", "Statsmodels"],
-    //   imagePath: "/assets/projects/project-04.png",
-    //   imageAlt: "Housing analysis project preview",
-    //   repoUrl: "https://github.com/example/housing-analysis",
-    //   liveUrl: "https://example.com/housing-report",
-    // },
+   {
+  id: "project-04",
+  title: "Belong — Animal Adoption Platform",
+  description:
+    "Built a full-stack adoption platform that connects adopters with NGOs through role-based dashboards, animal listings, profile flows, and adoption request management.",
+  outcome:
+    "Created a scalable frontend and backend scaffold with clean routing, responsive UI, NGO/user flows, and a deploy-ready structure for future database and authentication integration.",
+  techStack: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Express.js",
+    "Node.js",
+  ],
+  imagePath: "/assets/projects/project-04.png",
+  imageAlt: "Belong animal adoption platform preview",
+  repoUrl: "https://github.com/slayplayagrima/Belong",
+  liveUrl: "https://belongadoptionsite.vercel.app/",
+}
   ],
   snapshots: {
     eyebrow: "Visuals",

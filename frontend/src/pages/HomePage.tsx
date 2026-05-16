@@ -14,9 +14,10 @@ export function HomePage() {
       <HeroSection />
       <TechStrip />
       <AboutSection />
-      <SkillsSection />
       <ProjectsSection />
-      <SnapshotsSection />
+      <SkillsSection />
+      {/* <ProjectsSection /> */}
+      {/* <SnapshotsSection /> */}
       <AchievementsSection />
       <ContactSection />
     </SiteShell>
