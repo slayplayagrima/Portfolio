@@ -88,7 +88,29 @@ export const portfolioContent = {
     ],
   },
   projects: [
+    {
+  id: "project-05",
+  title: "Financial Market Intelligence Dashboard",
+  description:
+    "Analyzed 5-year historical market data for AAPL, MSFT, and SPY to evaluate return, volatility, drawdown, seasonality, and forecasting performance using financial analytics and time-series modeling.",
+  outcome:
+    "Built an interactive 3-page Power BI dashboard with KPI cards, risk-return analysis, seasonality insights, forecasting model evaluation, and a 90-day Apple price forecast using Prophet and ARIMA models.",
+  techStack: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Power BI",
+    "Prophet",
+    "Google Colab",
+    "Excel"
+  ],
+  imagePath: "/assets/projects/project-05.png",
+  imageAlt: "Financial market intelligence dashboard preview",
+  repoUrl: "https://github.com/slayplayagrima/financial-market-forecasting",
+  liveUrl: "https://app.powerbi.com/view?r=eyJrIjoiMzE2NjVmNzMtNWU5MC00MTJjLWFkZGItY2U0M2MxNWQxYWJiIiwidCI6ImE1ODdhZDA0LTJhYzYtNDJiYi1iOWNiLWE5M2JhOGQwYmI0YiJ9&pageName=7c71bd4653e883d4bfdf",
+},
       {
+        
     id: "project-01",
     title: "Income Insights & Prediction Analysis",
     description:
